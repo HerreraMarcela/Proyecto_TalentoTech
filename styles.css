@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Color de fondo claro */
+    color: #333; /* Color de texto */
+}
+
+header {
+    background-color: #6F4C3E; /* Marrón para el header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: white; /* Fondo blanco para secciones */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilo de formulario */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ced4da; /* Color de borde */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+button {
+    background-color: #FFC107; /* Ámbar para el botón */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e0a800; /* Un ámbar más oscuro al pasar el ratón */
+}
+
+/* Estilo de lista de productos */
+ul {
+    list-style-type: square; /* Estilo de lista cuadrado */
+    margin-left: 20px; /* Margen a la izquierda */
+}
+
+/* Estilo de footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #6F4C3E; /* Marrón para el footer */
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Paleta de colores */
+:root {
+    --color-primario: #FFC107; /* Ámbar */
+    --color-secundario: #6c757d; /* Gris */
+    --color-terciario: #4CAF50; /* Verde */
+}
+
+
+/* Paleta de colores */
+:root {
+    --color-primario: #007bff; /* Azul */
+    --color-secundario: #6c757d; /* Gris */
+    --color-terciario: #28a745; /* Verde */
+}
